@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="style.css">
 </head>
-
+<!--        There is a MIME type error when rendering in browser, without editing the project. Quick Fix: add crossorigin="anonymous" to script-->
 <body>
-    <section id="app"></section>
-    <script type="module">
-        import init from '/pkg/package.js';
-        init('/pkg/package_bg.wasm');
-    </script>
+<img src="assets/LVLogo_small.png"/>
+<section id="app"></section>
+<script type="module" crossorigin="anonymous">
+    import init from '/pkg/package.js';
+    init('/pkg/package_bg.wasm');
+</script>
 </body>
 
 </html>

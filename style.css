@@ -1,7 +1,39 @@
 body {
-    padding: 20px;
+    padding: 50px;
 }
 
 input {
     margin-bottom: 10px;
+}
+
+#app {
+    background: #fff;
+    width: 20rem;
+    margin-top: 50px;
+    padding: 20px;
+    position: center;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2),
+    0 25px 50px 0 rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2),
+    0 25px 50px 0 rgba(0, 0, 0, 0.1);
+
+}
+
+.toggle {
+    margin-right: 5px;
+}
+
+.destroy {
+    margin-left: 10px;
+}
+
+.view {
+
 }
